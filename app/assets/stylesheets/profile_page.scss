@@ -1,0 +1,17 @@
+.iphone5{
+  position:relative;
+  margin:auto;
+  width:372px;
+  iframe{
+    position:relative;
+    top:94px;
+    left:25px;
+  }
+  .iphone{
+    position:absolute;
+    top:0;
+    right:0;
+    width:100%;
+    height:auto;
+  }
+}
