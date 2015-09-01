@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title Profile
+    meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    = stylesheet_link_tag    "application", media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag "application", 'data-turbolinks-track' => true
+    script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"
+    link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"
+    = favicon_link_tag 'favicon.ico'
+    = csrf_meta_tags
+
+  body
+    = render 'home/nav_bar'
+    main
+      = yield
+    = render 'home/footer'

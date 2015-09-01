@@ -33,17 +33,10 @@ function start_js() {
     $(".slice").toggleClass("transform");
   });
 
-  $("#reservation_plates").on("change", function(e){
-    var price = 20;
-    var multiplier = $(this).val();
-    var priceToDisplay = '$' + String(price * multiplier) + '.00';
-    $('#payment').text(priceToDisplay);
-    $('button span').text(priceToDisplay + " - Pay with card");
-  });
 }
 
-$(function() {
-});
+//$(function() {
+//});
 
 $(document).on('ready page:load', start_js);
 

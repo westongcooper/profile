@@ -1,8 +1,7 @@
 /*** Colors ***/
-$primary-color: color("blue-grey", "darken-4") !default;
+$primary-color: color("shades", "blackish") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
-
 $secondary-color: color("light-blue", "darken-1") !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;

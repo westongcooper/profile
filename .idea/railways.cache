@@ -1,3 +1,4 @@
   Prefix Verb URI Pattern         Controller#Action
     root GET  /                   home#index
 projects GET  /projects(.:format) home#projects
+ contact GET  /contact(.:format)  contact#new
