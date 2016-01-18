@@ -5,6 +5,7 @@ root 'home#index'
 
 get 'projects' => 'home#projects', as: 'projects'
 get 'contact' => 'contact#new', as: 'contact'
+get 'resume' => 'home#resume', as: 'resume'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
