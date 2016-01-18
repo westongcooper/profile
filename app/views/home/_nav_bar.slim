@@ -2,16 +2,16 @@ nav
   .nav-wrapper
     .logo_name_link
       = link_to root_path, class: 'brand-logo'
-        = image_tag 'WC_unicode_64_height.png', class: 'nav_logo hide-on-small-only'
+        = image_tag 'WC_small_white.png', class: 'nav_logo hide-on-small-only'
         .name
           | Weston Cooper
       a.button-collapse data-activates="mobile-demo" href="#"
         i.material-icons menu
       ul#nav-mobile.right.hide-on-med-and-down
-        = nav_link 'Home', root_path
+        = nav_link 'About', root_path
         = nav_link 'Projects', projects_path
         = nav_link 'Contact', contact_path
       ul#mobile-demo.side-nav
-        = nav_link 'Home', root_path
+        = nav_link 'About', root_path
         = nav_link 'Projects', projects_path
         = nav_link 'Contact', contact_path

@@ -76,7 +76,7 @@ nav {
       &:hover, &.active {
         background-color: rgba(3, 155, 229, 0.05);
         a{
-          color:rgba(3, 155, 229, 1);
+          color: $secondary-color;
         }
       }
     }
